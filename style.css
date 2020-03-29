@@ -1,0 +1,219 @@
+/*общие стили*/
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/*верхнее меню*/
+.top-menu {
+    background-color: #353535;
+}
+
+.top-menu-list {
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.top-menu-list a {
+    color: #bfbfbf;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/*информация хэдера*/
+.header-info {
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1e1e1e;
+    font-size: 16px;
+}
+
+.header-info a {
+    text-decoration: none;
+    color: #1e1e1e;
+    font-size: 16px;
+}
+
+.offices, .feedback {
+    border-bottom: 1px dashed #1e1e1e;
+}
+
+/*главное меню*/
+.main-menu {
+    background-color: #e0e0e0;
+}
+
+.main-menu-list {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.main-menu-list a {
+    color: #1e1e1e;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*основная часть*/
+.content {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+
+
+.services {
+    display: flex;
+    width: 756px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services-credit {
+    background-image: url(img/credit-bg.jpg);
+    width: 756px;
+    height: 442px;
+    margin-bottom: 12px;
+}
+
+.services-credit h1 {
+    margin-top: 0;
+}
+
+
+.sidebar-right {
+    width: 372px;
+}
+
+.services-ipoteka_nalog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 215px;
+    background-color: #00aaef;
+    color: #ffffff;
+
+}
+
+.services-debet {
+    display: flex;
+    width: 372px;
+
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.inside {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card {
+    width: 110px;
+}
+
+
+.sidebar-right {
+    display: flex;
+    width: 372px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-right-online {
+    background-color: #ededed;
+    display: flex;
+    height: 160px;
+}
+
+.sidebar-right-col1 {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.sidebar-right-col2 {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.blue-text {
+    color: deepskyblue;
+}
+
+
+.sidebar-right-individ_card {
+    background-image: url(img/cart-individ.png);
+    height: 496px;
+    background-size: cover;
+}
+
+.footer {
+    margin-top: 20px;
+    background-color: #f5f5f5;
+
+}
+
+.footer-content {
+    height: 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content-item {
+    flex: 1;
+    font-size: small;
+}
+
+/*Кнопки:*/
+/*Общие свойства:*/
+/*Размер текста: 16*/
+/*Скругление: 20*/
+/*Шрифт полужирный*/
+/*Padding: 10 20*/
+/*Зеленая кнопка:*/
+/*Цвет: #c3fd12*/
+/*Цвет текста: #1e1e1e*/
+/*Голубая кнопка:*/
+/*Цвет и цвет текста: #00aeef;*/
+/*Толщина границы: 1 */
+.big-father {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.first-son{
+    flex:1;
+}
